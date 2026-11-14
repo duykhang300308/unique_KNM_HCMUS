@@ -44,7 +44,8 @@ const MEMBERS = [
     "tagline": "Mathematics · Teaching · Research",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin (chương trình tăng cường tiếng Anh) tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi khá hướng nội, yêu thích khám phá những điều mới mẻ và quan tâm đến lĩnh vực giảng dạy, nghiên cứu. Tôi có thế mạnh về Toán học và luôn mong muốn mở rộng kiến thức, phát triển năng lực bản thân.",
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực, nơi mọi người có thể hỗ trợ và phát triển cùng nhau.",
-    "goal": "Trở thành giảng viên đại học, đồng thời không ngừng trau dồi kiến thức chuyên môn và hoàn thiện bản thân."
+    "goal": "Trở thành giảng viên đại học, đồng thời không ngừng trau dồi kiến thức chuyên môn và hoàn thiện bản thân.",
+    "photo": "songhuong.jpg"
   },
   {
     "name": "Bùi Đỗ Duy Khang",
