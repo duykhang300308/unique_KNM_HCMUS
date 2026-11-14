@@ -51,7 +51,8 @@ const MEMBERS = [
     "tagline": "Programming · Software · IT Consulting",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin (chương trình tăng cường tiếng Anh) tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi khá hướng nội, yêu thích lập trình và quan tâm đến lĩnh vực phát triển phần mềm. Tôi luôn sẵn sàng tiếp thu kiến thức mới, rèn luyện tư duy logic và hoàn thiện bản thân thông qua những trải nghiệm thực tế.",
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực, nơi mọi người có thể hỗ trợ và phát triển cùng nhau.",
-    "goal": "Trở thành IT Consultant, đồng thời trau dồi kiến thức chuyên môn, nâng cao các kỹ năng cần thiết và phát triển bản thân."
+    "goal": "Trở thành IT Consultant, đồng thời trau dồi kiến thức chuyên môn, nâng cao các kỹ năng cần thiết và phát triển bản thân.",
+    "photo": "duykhang.jpg"
   }
 ];
 
@@ -72,10 +73,15 @@ MEMBERS.forEach((member, index) => {
   card.tabIndex = 0;
   card.setAttribute("role", "button");
   card.setAttribute("aria-label", `Xem hồ sơ ${member.name}`);
+  
+  const photoHTML = member.photo 
+    ? `<img src="${member.photo}" alt="${member.name}" style="width: 100%; height: 100%; object-fit: cover;">`
+    : `<span class="photo-placeholder">MEMBER<br>PHOTO</span>`;
+
   card.innerHTML = `
-    <div class="member-photo">
+    <div class="member-photo" style="overflow: hidden;">
       <span class="member-number">0${index + 1} / 06</span>
-      <span class="photo-placeholder">MEMBER<br>PHOTO</span>
+      ${photoHTML}
     </div>
     <div class="member-info">
       <span class="member-role">${member.role}</span>
@@ -101,16 +107,27 @@ function openProfile(index) {
   fields.about.textContent = member.about;
   fields.team.textContent = member.team;
   fields.goal.textContent = member.goal;
+
+  // Tự động nhét ảnh vào đúng khung id="profilePhoto" có sẵn khi bấm xem hồ sơ
+  const profilePhotoEl = document.getElementById("profilePhoto");
+  if (profilePhotoEl) {
+    profilePhotoEl.innerHTML = member.photo 
+      ? `<img src="${member.photo}" alt="${member.name}" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">`
+      : `<span>ẢNH<br>THÀNH VIÊN</span>`;
+  }
+
   modal.classList.add("open");
   modal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
   document.querySelector(".close-modal").focus();
 }
+
 function closeProfile() {
   modal.classList.remove("open");
   modal.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
 }
+
 modal.querySelectorAll("[data-close]").forEach(el => el.addEventListener("click", closeProfile));
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && modal.classList.contains("open")) closeProfile();
