@@ -6,7 +6,8 @@ const MEMBERS = [
     "tagline": "Technology enthusiast · Aspiring Software Developer",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi có tính cách hướng nội, yêu thích các sản phẩm công nghệ và luôn quan tâm đến những xu hướng, ứng dụng mới trong lĩnh vực này. Tôi có thế mạnh về công nghệ, đồng thời chủ động học hỏi và trau dồi kiến thức để hoàn thiện bản thân.",
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và phối hợp cùng các thành viên để xây dựng một môi trường làm việc nhóm tích cực, năng động và hiệu quả.",
-    "goal": "Trở thành nhà phát triển phần mềm (Software Developer), không ngừng phát triển kiến thức chuyên môn, nâng cao kỹ năng và tích lũy kinh nghiệm."
+    "goal": "Trở thành nhà phát triển phần mềm (Software Developer), không ngừng phát triển kiến thức chuyên môn, nâng cao kỹ năng và tích lũy kinh nghiệm.",
+    "photo": "haianh.jpg"
   },
   {
     "name": "Tô Minh Cường",
@@ -35,7 +36,8 @@ const MEMBERS = [
     "tagline": "Outgoing · Curious · Team leader",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin (chương trình tăng cường tiếng Anh) tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi hướng ngoại, tự tin và hòa đồng; yêu thích ngủ, khám phá và trải nghiệm những điều mới mẻ. Tôi vẫn đang khám phá thế mạnh của bản thân và mong muốn học hỏi, hoàn thiện mình qua những trải nghiệm mới.",
     "team": "Với vai trò nhóm trưởng, tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực, sáng tạo và hiệu quả.",
-    "goal": "Hướng đến mục tiêu giàu có và nổi tiếng, đồng thời không ngừng phát triển bản thân trên con đường học tập cũng như sự nghiệp."
+    "goal": "Hướng đến mục tiêu giàu có và nổi tiếng, đồng thời không ngừng phát triển bản thân trên con đường học tập cũng như sự nghiệp.",
+    "photo": "trihieu.jpg"
   },
   {
     "name": "Trần Võ Sông Hương",
