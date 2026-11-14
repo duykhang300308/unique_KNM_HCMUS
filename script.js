@@ -51,7 +51,7 @@ const MEMBERS = [
     "tagline": "Programming · Software · IT Consulting",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin (chương trình tăng cường tiếng Anh) tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi khá hướng nội, yêu thích lập trình và quan tâm đến lĩnh vực phát triển phần mềm. Tôi luôn sẵn sàng tiếp thu kiến thức mới, rèn luyện tư duy logic và hoàn thiện bản thân thông qua những trải nghiệm thực tế.",
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực, nơi mọi người có thể hỗ trợ và phát triển cùng nhau.",
-    "goal": "Trở thành IT Consultant, đồng thời trau dồi kiến thức chuyên môn, nâng cao các kỹ năng cần thiết và phát triển bản thân."
+    "goal": "Trở thành IT Consultant, đồng thời trau dồi kiến thức chuyên môn, nâng cao các kỹ năng cần thiết và phát triển bản thân.",
     "photo" : "duykhang.jpg"
   }
 ];
