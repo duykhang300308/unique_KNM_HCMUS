@@ -53,7 +53,7 @@ const MEMBERS = [
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực, nơi mọi người có thể hỗ trợ và phát triển cùng nhau.",
     "goal": "Trở thành IT Consultant, đồng thời trau dồi kiến thức chuyên môn, nâng cao các kỹ năng cần thiết và phát triển bản thân.",
     "photo" : "duykhang.jpg"
-  }
+  },
 ];
 
 const grid = document.getElementById("memberGrid");
