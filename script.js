@@ -25,7 +25,8 @@ const MEMBERS = [
     "tagline": "Data · AI · Problem solving",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin (chương trình tăng cường tiếng Anh) tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi cởi mở, năng động, yêu thích công nghệ và đặc biệt quan tâm đến Data và AI. Tôi có thế mạnh về phân tích và giải quyết vấn đề liên quan đến số liệu, đồng thời luôn mong muốn học hỏi và hoàn thiện bản thân.",
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực.",
-    "goal": "Trở thành Data Engineer và không ngừng phát triển bản thân trên con đường học tập cũng như sự nghiệp."
+    "goal": "Trở thành Data Engineer và không ngừng phát triển bản thân trên con đường học tập cũng như sự nghiệp.",
+    "photo": "ducduong.jpg"
   },
   {
     "name": "Nguyễn Trí Hiếu",
