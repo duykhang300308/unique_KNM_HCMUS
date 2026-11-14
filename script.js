@@ -15,7 +15,8 @@ const MEMBERS = [
     "tagline": "Computer · Music · Technology",
     "about": "Tôi là sinh viên ngành Công nghệ thông tin (chương trình tăng cường tiếng Anh) tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Tôi khá hướng nội, đôi khi rụt rè và hay lo lắng; yêu thích máy tính, âm nhạc và quan tâm đến lĩnh vực công nghệ. Tôi vẫn đang khám phá thế mạnh của bản thân và mong muốn học hỏi, hoàn thiện mình qua những trải nghiệm mới.",
     "team": "Tôi mong muốn được học hỏi, chia sẻ kinh nghiệm và cùng các thành viên xây dựng một môi trường làm việc nhóm tích cực.",
-    "goal": "Đạt được thành công về tài chính và trở thành người có chuyên môn vững vàng trong lĩnh vực mình theo đuổi."
+    "goal": "Đạt được thành công về tài chính và trở thành người có chuyên môn vững vàng trong lĩnh vực mình theo đuổi.",
+    "photo": "minhcuong.jpg"
   },
   {
     "name": "Trần Đức Dương",
@@ -108,7 +109,6 @@ function openProfile(index) {
   fields.team.textContent = member.team;
   fields.goal.textContent = member.goal;
 
-  // Tự động nhét ảnh vào đúng khung id="profilePhoto" có sẵn khi bấm xem hồ sơ
   const profilePhotoEl = document.getElementById("profilePhoto");
   if (profilePhotoEl) {
     profilePhotoEl.innerHTML = member.photo 
